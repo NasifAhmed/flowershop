@@ -50,6 +50,7 @@ p {
     font-size: 1.125rem;
     font-weight: 400;
     line-height: 30px;
+    max-width: 38rem;
 }
 
 /* Need a universal button class */
@@ -67,9 +68,10 @@ p {
     cursor: pointer;
 }
 
-.button-link {
-    padding: 20px 43px;
+.title-special-word {
+    color: #E55473;
 }
+
 
 
 /* 
@@ -82,18 +84,12 @@ p {
     height: 90vh;
 }
 
-.header-content {
-    /* display: flex; */
-    /* flex-direction: column; */
-}
-
 .header-title {
     font-size: 5rem;
     max-width: 36vw;
 }
 
 .header-paragraph {
-    max-width: 33rem;
     text-align: left;
     margin-top: 3.5vh;
     margin-bottom: 3.5vh;
@@ -109,6 +105,148 @@ p {
             Main section styling
     
 */
+.main-container {
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* FEATURED SECTION */
+.featured-section-container {
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-paragraph {
+    margin-top: 3vh;
+    margin-bottom: 6vh;
+}
+
+.featured-content {
+    align-items: flex-end;
+}
+
+.featured-item-container {
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+.featured-item-image-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    border-radius: 300px 300px 0px 0px;
+    text-align: center;
+    height: 55vh;
+    width: 22vw;
+}
+
+#featured-image1 {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+#featured-image2 {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+#featured-image3 {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.featured-item-text {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+/* SIGNUP SECTION */
+.signup-section-container {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(229, 84, 115, 0.05);
+    width: 100vw;
+    padding-left: 12.5vw;
+    padding-right: 12.5vw;
+}
+
+.signup-content {
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-paragraph {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+
+/* INSTAGRAM SECTION */
+.instagram-section-container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram-paragraph {
+    margin-top: 3vh;
+    margin-bottom: 6vh;
+}
+
+.instagram-content {
+    align-items: flex-end;
+}
+
+.instagram-item-container {
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+.instagram-item-image-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#instagram-image4 {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.instagram-item-text {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+/* SUBSCRIBE SECTION */
+.subscribe-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("assets/Rectangle 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+}
+
 
 
 /* 
@@ -132,13 +270,10 @@ p {
     font-weight: 800;
 }
 
-.footer-title-special-word {
-    color: #E55473;
-}
+
 
 .footer-paragraph {
     color: rgba(255, 255, 255, 0.90);
-    max-width: 32.5vw;
     margin-top: 3vh;
     margin-bottom: 4vh;
 }
