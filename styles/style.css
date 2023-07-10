@@ -59,7 +59,7 @@ p {
     padding: 20px 43px;
     background-color: #E55473;
     color: #FFF;
-    font-size: px;
+    font-size: 1.25rem;
     font-weight: 700;
     border: none;
 }
@@ -239,12 +239,28 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("assets/Rectangle 9.png");
+    justify-content: center;
+    background-image: url("../assets/Rectangle\ 9.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 50vh;
+    height: 40vh;
+}
+
+.subscribe-paragraph {
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+
+.subscribe-email-field {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    padding: 20px 35px;
+    width: 30vw;
+    margin-right: 2vw;
 }
 
 
@@ -258,6 +274,7 @@ p {
     height: 45vh;
     justify-content: center;
     background-color: #111010;
+    margin-top: 10vh;
 }
 
 .footer-content {
