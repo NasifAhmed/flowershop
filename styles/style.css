@@ -84,6 +84,10 @@ p {
     height: 90vh;
 }
 
+.header-content {
+    padding-left: 4vw;
+}
+
 .header-title {
     font-size: 5rem;
     max-width: 36vw;
@@ -261,6 +265,40 @@ p {
     padding: 20px 35px;
     width: 30vw;
     margin-right: 2vw;
+}
+
+/* CUSTOMER SECTION */
+.customer-section-container {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(229, 84, 115, 0.05);
+    height: 50vh;
+    width: 100%;
+    padding-left: 12.5vw;
+    padding-right: 12.5vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.customer-review {
+    margin-right: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 15vw;
+    font-size: 2rem;
+}
+
+#customer {
+    height: 45vh;
+}
+
+#customer-name {
+    padding-top: 2vh;
+    text-align: left;
+    font-size: 0.8rem;
 }
 
 
