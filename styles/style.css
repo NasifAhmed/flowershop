@@ -1,9 +1,118 @@
-* {
-    margin: 0px;
-    padding: 0px;
+/* 
+
+            Global setup
+    
+*/
+body {
+    margin: 0;
+    padding: 0;
     font-family: 'Lato', sans-serif;
 }
 
-/* Need a universal button class */
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+/* 
+
+            Universal Layouts 
+    
+*/
+/* Need a universal containter class */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 12.5vw;
+    padding-right: 12.5vw;
+    color: #272727;
+}
+
 /* Need a universal title header for main section */
+.main-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
 /* Need a universal p tag class for the whole page */
+.paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* Need a universal button class */
+.primary-btn {
+    border-radius: 8px;
+    padding: 20px 43px;
+    background-color: #E55473;
+    color: #FFF;
+    font-size: px;
+    font-weight: 700;
+    border: none;
+}
+
+.primary-btn:hover {
+    cursor: pointer;
+}
+
+.button-link {
+    padding: 20px 43px;
+}
+
+
+/* 
+
+            Header section styling
+    
+*/
+.header-container {
+    background: rgba(229, 84, 115, 0.10);
+    height: 90vh;
+}
+
+.header-content {
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.header-title {
+    font-size: 5rem;
+    max-width: 36vw;
+}
+
+.header-paragraph {
+    max-width: 33rem;
+    text-align: left;
+    margin-top: 3.5vh;
+    margin-bottom: 3.5vh;
+}
+
+.header-image {
+    align-self: flex-end;
+}
+
+
+/* 
+
+            Main section styling
+    
+*/
+
+
+/* 
+
+            Footer section styling
+    
+*/
