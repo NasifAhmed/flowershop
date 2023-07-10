@@ -116,3 +116,35 @@ p {
             Footer section styling
     
 */
+.footer-container {
+    height: 45vh;
+    justify-content: center;
+    background-color: #111010;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-title {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-title-special-word {
+    color: #E55473;
+}
+
+.footer-paragraph {
+    color: rgba(255, 255, 255, 0.90);
+    max-width: 32.5vw;
+    margin-top: 3vh;
+    margin-bottom: 4vh;
+}
+
+.copyright-footer {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
